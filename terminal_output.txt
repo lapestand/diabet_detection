@@ -1,0 +1,31 @@
+Windows PowerShell
+DEBUG:weka.core.jvm:Adding bundled jars
+DEBUG:weka.core.jvm:Classpath=['C:\\Users\\Turgut\\AppData\\Roaming\\Python\\Python38\\site-packages\\javabridge\\jars\\rhino-1.7R4.jar', 'C:\\Users\\Turg
+ut\\AppData\\Roaming\\Python\\Python38\\site-packages\\javabridge\\jars\\runnablequeue.jar', 'C:\\Users\\Turgut\\AppData\\Roaming\\Python\\Python38\\site-
+packages\\javabridge\\jars\\cpython.jar', 'C:\\Users\\Turgut\\AppData\\Roaming\\Python\\Python38\\site-packages\\weka\\lib\\python-weka-wrapper.jar', 'C:\
+\Users\\Turgut\\AppData\\Roaming\\Python\\Python38\\site-packages\\weka\\lib\\weka.jar']
+DEBUG:weka.core.jvm:MaxHeapSize=default
+DEBUG:weka.core.jvm:Package support disabled
+
+92.5
+************************************************************
+
+Correctly Classified Instances         481               92.5    %
+Kappa statistic                          0.8446
+Mean absolute error                      0.0748
+Root mean squared error                  0.2219
+Relative absolute error                 15.7972 %
+Root relative squared error             45.619  %
+Total Number of Instances              520
+
+************************************************************
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,906    0,045    0,970      0,906    0,937      0,848    0,985     0,989     Positive
+                 0,955    0,094    0,864      0,955    0,907      0,848    0,985     0,968     Negative
+Weighted Avg.    0,925    0,064    0,929      0,925    0,926      0,848    0,985     0,981
+
+************************************************************
+→ C:\Users\Izzet\source\repos\Mine\diabet_detection [master +4 ~1 -0 !]› 
+
