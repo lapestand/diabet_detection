@@ -70,7 +70,6 @@ def classify(k, cross_validation, percentage_split):
             results["percentage_split"]["summary"]          = evaluation.summary()
             results["percentage_split"]["matrix"]           = evaluation.matrix()
             
-        
         for mode, results in results.items():
             print(f"{mode}")
             for key, result in results.items():
